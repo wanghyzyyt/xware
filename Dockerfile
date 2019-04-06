@@ -1,4 +1,4 @@
-FROM i386/debian:wheezy-slim
+FROM i386/debian:stable-slim
 
 ENV LANG C.UTF-8
 RUN apt-get update && apt-get install -y procps libz1 libncurses5
